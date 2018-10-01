@@ -26,6 +26,3 @@ class DDLCreator:
         query = " ".join([column_name.replace(" ", "_").replace(
             "-", "_") + " VARCHAR(255)," for column_name in columns])
         return query[:-1]
-
-    def check_types(self, file_name):
-        print(chkcsv.check_csv_file(file_name))
