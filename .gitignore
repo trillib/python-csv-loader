@@ -1,0 +1,5 @@
+py-loader/
+database_config.ini
+data/
+.vscode/
+__pycache__/
